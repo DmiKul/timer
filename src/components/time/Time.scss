@@ -1,0 +1,21 @@
+@import '../../styles/base.scss';
+.time {
+	width: 500px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: $background-color;
+	margin-bottom: $indent;
+	border-radius: $border-radius;
+}
+.time__value {
+	font-size: 65px;
+}
+//----//
+@media (max-width: 480px) {
+	.time {
+		width: 250px;
+		height: 150px;
+	}
+}

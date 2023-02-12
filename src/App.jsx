@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import Buttons from './components/buttons/Buttons'
+import Time from './components/time/Time'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-    
+      <Time></Time>
+      <Buttons></Buttons>
     </div>
   )
 }
