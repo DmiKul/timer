@@ -1,11 +1,11 @@
-@import '../../styles/base.scss';
+@import './base.scss';
 .buttons {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 //---//
-@media (max-width: 480) {
+@media (max-width: 576px) {
 	.buttons {
 		flex-direction: column;
 		gap: $indent;

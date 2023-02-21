@@ -10,12 +10,36 @@
 	border-radius: $border-radius;
 }
 .time__value {
-	font-size: 65px;
+	font-size: 90px;
 }
 //----//
+@media (max-width: 992px) {
+	.time {
+		width: 450px;
+		height: 300px;
+	}
+}
+@media (max-width: 760px) {
+	.time {
+		width: 400px;
+		height: 250px;
+	}
+}
+@media (max-width: 576px) {
+	.time {
+		width: 350px;
+		height: 200px;
+	}
+	.time__value {
+		font-size: 80px;
+	}
+}
 @media (max-width: 480px) {
 	.time {
 		width: 250px;
 		height: 150px;
+	}
+	.time__value {
+		font-size: 60px;
 	}
 }

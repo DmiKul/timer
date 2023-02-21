@@ -12,3 +12,13 @@
 .button:hover {
 	opacity: 0.9;
 }
+@media (max-width: 992px) {
+	.button {
+		width: 130px;
+	}
+}
+@media (max-width: 576px) {
+	.button {
+		width: 200px;
+	}
+}
