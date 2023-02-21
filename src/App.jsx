@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import Timer from './components/timer/Timer'
+import './styles/buttons.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-    
+      	<Timer></Timer>
     </div>
   )
 }
